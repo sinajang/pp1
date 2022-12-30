@@ -1,0 +1,9 @@
+$(function(){
+    //서브메뉴
+    $('.hide').hide();
+    $('.sub_2').mouseover(function(){
+        $('.hide').stop().slideDown();
+    }).mouseout(function(){
+        $('.hide').stop().slideUp();
+    });
+});
